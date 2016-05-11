@@ -2,6 +2,7 @@ def main():
     # First line of input will be the number of cases
     cases = int(input())
     for i in range(1, cases + 1):
+        # Each other line will be the number the needs to be checked
         number = int(input())
         # Check to see if the number is anything but 0
         if number:
